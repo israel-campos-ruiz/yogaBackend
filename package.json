@@ -1,13 +1,11 @@
 {
-  "type": "module",
   "name": "yogaback",
   "version": "1.0.0",
   "description": "aplicación hecha con node.js graphql ",
   "main": "index.js",
   "scripts": {
-   
-    "start": "babel src/index.js --ext js,graphql --exec babel-node",
-    
+    "start": "npm run build:dev",
+    "build:dev": "nodemon \"src/index.js\" --exec babel-node",
     "dev": "nodemon ./src/index.js --exec babel-node"
   },
   "author": "israel campos",
@@ -16,7 +14,6 @@
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
-    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "apollo-server": "^2.19.0",
     "bcrypt": "^5.0.0",
@@ -26,7 +23,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.8",
     "nodemailer": "^6.4.17",
-    "regenerator-runtime": "^0.13.7",
     "twilio": "^3.54.1"
   },
   "devDependencies": {}
