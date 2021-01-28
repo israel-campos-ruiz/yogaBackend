@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build:dev",
     "build:dev": "babel -d \"src/index.js\"",
-    "dev": "nodemon ./src/index.js --exec babel-node"
+    "dev": "nodemon ./src/index.js --exec babel-node" 
   },
   "author": "israel campos",
   "license": "ISC",
