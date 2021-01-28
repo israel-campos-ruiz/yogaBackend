@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+variables.env
+# Production build
+build/
+# Optional eslint cache
+.eslintcache
