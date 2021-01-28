@@ -5,8 +5,9 @@
   "description": "aplicación hecha con node.js graphql ",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir build --source-maps=inline --delete-dir-on-start --copy-files --verbose",
-    "start": "npm run build --watch & sleep 1 && nodemon --watch build build/index.js",
+   
+    "start": "nodemon src/index.js --ext js,graphql --exec babel-node",
+    
     "dev": "nodemon ./src/index.js --exec babel-node"
   },
   "author": "israel campos",
