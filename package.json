@@ -7,9 +7,9 @@
   "scripts": {
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./src -s",
-    "dev": "nodemon ./src/index.js --exec babel-node",
+    "start": "npm run build && node ./build/index.js",
     "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && node ./build/index.js"
+    "dev": "nodemon ./src/index.js --exec babel-node"
   },
   "author": "israel campos",
   "license": "ISC",
