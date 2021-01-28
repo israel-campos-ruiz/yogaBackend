@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "yogaback",
   "version": "1.0.0",
   "description": "aplicación hecha con node.js graphql ",
@@ -7,7 +6,7 @@
   "scripts": {
     "dev": "nodemon ./src/index.js --exec babel-node",
     "clean": "rm -rf build && mkdir build",
-    "build-babel": " babel src -d ./build ",
+    "build-babel": "babel src -d build ",
     "build": "npm run build-babel",
     "start": "npm run build && node ./build/index.js"
   },
