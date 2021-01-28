@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "aplicación hecha con node.js graphql ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon ./src/index.js --exec babel-node",
     "clean": "rm -rf build && mkdir build",
@@ -26,6 +27,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.8",
     "nodemailer": "^6.4.17",
+    "regenerator-runtime": "^0.13.7",
     "twilio": "^3.54.1"
   },
   "devDependencies": {}
