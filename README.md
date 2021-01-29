@@ -1,6 +1,5 @@
 # Mediyoga
 Aplicación de una escuela de yoga el backend esta hecho con graphql y apollo-server  <br>
-[https://github.com/israel-campos-ruiz/netflix-clone-react](https://github.com/israel-campos-ruiz/netflix-clone-react)
 
 
 ## Paquetes y librerias utilizados 
