@@ -22,7 +22,11 @@ export const inputClient = gql`
         telefono:String
     }
     input RecoverPasswordInput{
+       email:String
+    }
+
+    input InsertNewPasswordInput{
         password:String
-        mensaje:String
+        token:String
     }
 `;

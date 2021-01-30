@@ -9,7 +9,6 @@ export const clientType = gql`
         clase:[Clase]
         password:String
         telefono:String
-
     }
     type Token{
         client:Client
@@ -26,8 +25,24 @@ export const clientType = gql`
 
     type RecoverPassword{
         password:String
-        mensaje:String
         email:String
+    }
+
+    type InsertNewPassword{
+        message:String
+    }
+
+    type RecoverClientPassword{
+        _id:ID
+        nombre:String
+        email:String
+        edad:String
+        clase:[Clase]
+        password:String
+        telefono:String
+        resetToken:String
+    
+
     }
 
 `;

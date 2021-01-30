@@ -7,7 +7,9 @@ export const mutationClient = gql`
         notifyUserAndAddClass(input:InputNotify):NotifyAndAddClass
         updateUser(_id:ID, input:InputClient):Client
         deleteUserClass(_id:ID, _idClass:ID):Client
-        recoverPassword(input:RecoverPasswordInput):RecoverPassword
+        recoverPassword(input:RecoverPasswordInput):RecoverClientPassword
+        insertNewPassword(input:InsertNewPasswordInput):InsertNewPassword
+
     }
 
 `;

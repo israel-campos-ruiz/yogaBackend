@@ -27,7 +27,8 @@ const Usuarioschema = new mongoose.Schema({
     telefono:{
         type:String,
         trim:true
-    }
+    },
+    resetToken:String,
 });
 
 export default mongoose.model('cliente', Usuarioschema);
