@@ -49,7 +49,7 @@ export const sendLinkRecoverPassword = async (email, token) => {
     html:`<p>Recibimos tu petición para recuperar tu contraseña</p>
           <br/>
           <h5> Haz click en el siguiente enlace
-            <a href="https://israel-campos-ruiz.github.io/yogaFront/recuperar/${token}">¡click aquí</a>
+            <a href="https://israel-campos-ruiz.github.io/yogaFront/#/recuperar/${token}">¡click aquí</a>
           </h5>
           `
 
