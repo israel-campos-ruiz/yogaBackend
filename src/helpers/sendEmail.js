@@ -52,5 +52,7 @@ export const sendLinkRecoverPassword = async (email, token) => {
             <a href="http://localhost:3000/recuperar/${token}">¡click aquí</a>
           </h5>
           `
-  })
+
+        })
+   return link
 }
